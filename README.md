@@ -1,16 +1,23 @@
-## Hi there 👋
+# Syed Asad Shah
+**Computer Engineering Student | Hardware Designer | Networking Enthusiast**
 
-<!--
-**Syed-Asad-Shah-kazmi/Syed-Asad-Shah-Kazmi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am a Computer Engineering student focused on developing robust hardware solutions and exploring computer networking. I leverage **CachyOS (Linux)** and **KiCad** to bridge the gap between efficient software development and reliable hardware design.
 
-Here are some ideas to get you started:
+### Technical Expertise
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+* **Hardware Design** | KiCad (Current Project: ATX Power Supply)
+* **Programming** | C++, Python, Git, VS Code
+* **Networking** | Basic Routing, Switching, and Network Protocols
+* **Systems** | CachyOS (Arch Linux Power User)
+* **Design** | GIMP (Technical Image Processing)
+
+### GitHub Statistics
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=Syed-Asad-Shah-kazmi&show_icons=true&theme=tokyonight" alt="Syed Asad Shah's Stats" />
+</p>
+
+### Professional Goals
+My objective is to become an Embedded Systems Engineer specializing in hardware-software integration and network security. 
+
+*"Solving complex problems through precision and continuous learning."*

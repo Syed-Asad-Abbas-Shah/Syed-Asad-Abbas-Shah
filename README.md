@@ -1,7 +1,9 @@
-# Syed Asad Shah
-**Computer Engineering Student | Hardware Designer | Networking Enthusiast**
+# Syed Asad Shah (Syed Asad)
 
-I am a Computer Engineering student focused on developing robust hardware solutions and exploring computer networking. I leverage **CachyOS (Linux)** and **KiCad** to bridge the gap between efficient software development and reliable hardware design.
+Hi, I am **Syed Asad Shah**, often known in the tech community as **Syed Asad** or simply **Asad**. I am a Computer Engineering Technology student specializing in hardware design, software automation, and Linux power-user architecture.
+
+**Computer Engineering Student | Hardware Designer | Interested In Computer Networking**
+
 
 ### Technical Expertise
 

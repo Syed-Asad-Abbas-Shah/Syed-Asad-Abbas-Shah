@@ -6,7 +6,7 @@ I am a Computer Engineering student focused on developing robust hardware soluti
 ### Technical Expertise
 
 * **Hardware Design** | KiCad (Current Project: ATX Power Supply)
-* **Programming** | C++, Python, Git, VS Code
+* **Programming** | C++, Python, Git, Antigravit IDE
 * **Networking** | Basic Routing, Switching, and Network Protocols
 * **Systems** | CachyOS (Arch Linux Power User)
 * **Design** | GIMP (Technical Image Processing)

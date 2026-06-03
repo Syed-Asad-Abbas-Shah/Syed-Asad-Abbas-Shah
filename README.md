@@ -20,6 +20,6 @@ Hi, I am **Syed Asad Shah**, often known in the tech community as **Syed Asad** 
 </p>
 
 ### Professional Goals
-My objective is to become an Embedded Systems Engineer specializing in hardware-software integration and network security. 
+My objective is to become an Embedded Systems Engineer or Directly Computer hardware Emgineering, specializing in hardware-software integration and network security. 
 
 *"Solving complex problems through precision and continuous learning."*

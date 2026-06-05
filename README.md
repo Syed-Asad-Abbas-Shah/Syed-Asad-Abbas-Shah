@@ -10,7 +10,7 @@ Hi, I am **Syed Asad Shah**, often known in the tech community as **Syed Asad** 
 * **Hardware Design** | KiCad (Current Project: ATX Power Supply)
 * **Programming** | C++, Python, Git, Antigravit IDE
 * **Networking** | Basic Routing, Switching, and Network Protocols
-* **Systems** | CachyOS (Arch Linux Power User)
+* **Systems** | CachyOS (Arch Linux Power User) Performance-optimized -Distro!
 * **Design** | GIMP (Technical Image Processing)
 
 ### GitHub Statistics

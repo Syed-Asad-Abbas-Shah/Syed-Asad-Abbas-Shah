@@ -43,9 +43,9 @@
     .accent-line { stroke: #FF9900; stroke-width: 3.5; stroke-linecap: round; filter: url(#glow-orange); }
     .circuit-line { stroke: #d0d7de; stroke-width: 1.5; fill: none; transition: stroke 0.3s ease; }
     .circuit-node-orange { fill: #FF9900; filter: url(#glow-orange); }
-    .circuit-node-blue { fill: #007185; filter: url(#glow-blue); transition: fill 0.3s ease; }
+    .circuit-node-blue { fill: #4285F4; filter: url(#glow-blue); transition: fill 0.3s ease; }
     .chip-border { stroke: #232F3E; stroke-width: 1.5; fill: none; transition: stroke 0.3s ease; }
-    .antigravity-logo { fill: #FF9900; filter: url(#glow-orange); }
+    .antigravity-logo { fill: #4285F4; filter: url(#glow-blue); }
 
     /* Dark Mode Override */
     @media (prefers-color-scheme: dark) {
@@ -57,7 +57,7 @@
       .circuit-line { stroke: #30363d; }
       .circuit-node-blue { fill: #58a6ff; }
       .chip-border { stroke: #FF9900; }
-      .antigravity-logo { fill: #FF9900; }
+      .antigravity-logo { fill: #4285F4; }
     }
   </style>
   
@@ -85,7 +85,7 @@
     <!-- Microchip representation -->
     <rect x="650" y="55" width="45" height="45" rx="4" class="chip-border" fill-opacity="0.03" />
     
-    <!-- Embedded Official Antigravity Logo inside the microchip -->
+    <!-- Embedded Official Antigravity Logo inside the microchip (Colored in Blue) -->
     <g transform="translate(655, 60) scale(0.1944)">
       <path d="M144.248 149.062c7.5 5.626 18.75 1.876 8.437-8.437-30.937-30-24.375-112.5-62.812-112.5-38.438 0-31.875 82.5-62.813 112.5-11.25 11.25.938 14.063 8.438 8.437 29.062-19.687 27.187-54.375 54.375-54.375 27.187 0 25.312 34.688 54.375 54.375Z" class="antigravity-logo"/>
     </g>

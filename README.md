@@ -40,7 +40,7 @@ I build and compile my projects on **CachyOS Linux**—a performance-optimized d
         <br/><br/>
         <a href="https://kde.org" target="_blank">
           <img src="https://cdn.simpleicons.org/kde/1D99F3" width="48" height="48" alt="KDE Plasma" /><br/>
-          <sub><b>KDE Plasma</b></sub>
+          <sub><b>KDE Plasma 6.7</b></sub>
         </a>
       </td>
       <td align="center" valign="top">
@@ -60,10 +60,10 @@ I build and compile my projects on **CachyOS Linux**—a performance-optimized d
         </a>
       </td>
       <td align="center" valign="top">
-        <img src="https://cdn.simpleicons.org/google/FF9900" width="48" height="48" alt="Antigravity Desktop 2.0" /><br/>
+        <img src="https://raw.githubusercontent.com/Syed-Asad-Abbas-Shah/Syed-Asad-Abbas-Shah/main/assets/antigravity.svg" width="48" height="48" alt="Antigravity Desktop 2.0" /><br/>
         <sub><b>Antigravity Desktop 2.0</b></sub>
         <br/><br/>
-        <img src="https://cdn.simpleicons.org/gnubash/FF9900" width="48" height="48" alt="Antigravity CLI" /><br/>
+        <img src="https://raw.githubusercontent.com/Syed-Asad-Abbas-Shah/Syed-Asad-Abbas-Shah/main/assets/antigravity.svg" width="48" height="48" alt="Antigravity CLI" /><br/>
         <sub><b>Antigravity CLI</b></sub>
         <br/><br/>
         <a href="https://git-scm.com" target="_blank">

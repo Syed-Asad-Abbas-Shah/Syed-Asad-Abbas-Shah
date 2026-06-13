@@ -15,29 +15,69 @@ I build and compile my projects on **CachyOS Linux**—a performance-optimized d
 
 ---
 
-## ⚡ Technical Expertise
+## ⚡ Ecosystem & Technology Dashboard
 
-### 🛠️ Operating Systems & Hardware (Official Branding)
-<p align="left">
-  <a href="https://cachyos.org"><img src="https://img.shields.io/badge/CachyOS-1DC7B5?style=for-the-badge&logo=cachyos&logoColor=white" alt="CachyOS" /></a>
-  <a href="https://archlinux.org"><img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" alt="Arch Linux" /></a>
-  <a href="https://kde.org"><img src="https://img.shields.io/badge/KDE_Plasma-1D99F3?style=for-the-badge&logo=kde&logoColor=white" alt="KDE Plasma" /></a>
-  <a href="https://kicad.org"><img src="https://img.shields.io/badge/KiCad-314B5F?style=for-the-badge&logo=kicad&logoColor=white" alt="KiCad" /></a>
-</p>
-
-### 💻 Programming Languages (Active Learning @ 20%)
-<p align="left">
-  <a href="https://isocpp.org"><img src="https://img.shields.io/badge/C%2B%2B-20%25_Learning-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" /></a>
-  <a href="https://python.org"><img src="https://img.shields.io/badge/Python-20%25_Learning-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
-</p>
-
-### 🔧 Software & Daily Tooling
-<p align="left">
-  <img src="https://img.shields.io/badge/Antigravity_Desktop_2.0-232F3E?style=for-the-badge&logo=google&logoColor=FF9900" alt="Antigravity Desktop 2.0" />
-  <img src="https://img.shields.io/badge/Antigravity_CLI-232F3E?style=for-the-badge&logo=terminal&logoColor=FF9900" alt="Antigravity CLI" />
-  <a href="https://git-scm.com"><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" /></a>
-  <a href="https://gimp.org"><img src="https://img.shields.io/badge/GIMP-5C5543?style=for-the-badge&logo=gimp&logoColor=white" alt="GIMP" /></a>
-</p>
+<table align="center" width="100%">
+  <thead>
+    <tr>
+      <th align="center" width="33%">🐧 Operating Systems &amp; DE</th>
+      <th align="center" width="33%">🛠️ Hardware &amp; Languages</th>
+      <th align="center" width="33%">🔧 Engineering Software</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" valign="top">
+        <a href="https://cachyos.org" target="_blank">
+          <img src="https://cdn.simpleicons.org/cachyos/1DC7B5" width="48" height="48" alt="CachyOS" /><br/>
+          <sub><b>CachyOS Linux</b></sub>
+        </a>
+        <br/><br/>
+        <a href="https://archlinux.org" target="_blank">
+          <img src="https://cdn.simpleicons.org/archlinux/1793D1" width="48" height="48" alt="Arch Linux" /><br/>
+          <sub><b>Arch Linux</b></sub>
+        </a>
+        <br/><br/>
+        <a href="https://kde.org" target="_blank">
+          <img src="https://cdn.simpleicons.org/kde/1D99F3" width="48" height="48" alt="KDE Plasma" /><br/>
+          <sub><b>KDE Plasma</b></sub>
+        </a>
+      </td>
+      <td align="center" valign="top">
+        <a href="https://kicad.org" target="_blank">
+          <img src="https://cdn.simpleicons.org/kicad/314B5F" width="48" height="48" alt="KiCad" /><br/>
+          <sub><b>KiCad PCB Design</b></sub>
+        </a>
+        <br/><br/>
+        <a href="https://isocpp.org" target="_blank">
+          <img src="https://cdn.simpleicons.org/cplusplus/00599C" width="48" height="48" alt="C++" /><br/>
+          <sub><b>C++ (20% Learning)</b></sub>
+        </a>
+        <br/><br/>
+        <a href="https://python.org" target="_blank">
+          <img src="https://cdn.simpleicons.org/python/3776AB" width="48" height="48" alt="Python" /><br/>
+          <sub><b>Python (20% Learning)</b></sub>
+        </a>
+      </td>
+      <td align="center" valign="top">
+        <img src="https://cdn.simpleicons.org/google/FF9900" width="48" height="48" alt="Antigravity Desktop 2.0" /><br/>
+        <sub><b>Antigravity Desktop 2.0</b></sub>
+        <br/><br/>
+        <img src="https://cdn.simpleicons.org/gnubash/FF9900" width="48" height="48" alt="Antigravity CLI" /><br/>
+        <sub><b>Antigravity CLI</b></sub>
+        <br/><br/>
+        <a href="https://git-scm.com" target="_blank">
+          <img src="https://cdn.simpleicons.org/git/F05032" width="40" height="40" alt="Git" />
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://gimp.org" target="_blank">
+          <img src="https://cdn.simpleicons.org/gimp/5C5543" width="40" height="40" alt="GIMP" />
+        </a><br/>
+        <sub><b>Git &amp; GIMP Editor</b></sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 

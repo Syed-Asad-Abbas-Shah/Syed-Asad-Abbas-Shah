@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Syed Asad Shah Banner" width="100%" />
+  <img src="assets/header.svg" alt="Syed Asad Abbas Shah Banner" width="100%" />
 </p>
 
 ## 📌 About Me
 
-Hi, I am **Syed Asad Shah** (often known in the tech community as **Syed Asad** or simply **Asad**). I am a Computer Engineering Technology student specializing in hardware design, software automation, and Linux power-user architecture. 
+Hi, I am **Syed Asad Abbas Shah** (often known in the tech community as **Syed Asad** or simply **Asad**). I am a Computer Engineering Technology student specializing in hardware design, software automation, and Linux power-user architecture. 
 
 *"Solving complex problems through precision and continuous learning."*
 
@@ -19,11 +19,16 @@ Hi, I am **Syed Asad Shah** (often known in the tech community as **Syed Asad** 
   <a href="https://cachyos.org"><img src="https://img.shields.io/badge/CachyOS-232F3E?style=for-the-badge&logo=linux&logoColor=FF9900" alt="CachyOS" /></a>
 </p>
 
-### 💻 Software & Programming
+### 💻 Programming Languages (Active Learning)
 <p align="left">
-  <a href="https://isocpp.org"><img src="https://img.shields.io/badge/C%2B%2B-232F3E?style=for-the-badge&logo=c%2B%2B&logoColor=FF9900" alt="C++" /></a>
-  <a href="https://python.org"><img src="https://img.shields.io/badge/Python-232F3E?style=for-the-badge&logo=python&logoColor=FF9900" alt="Python" /></a>
-  <a href="https://kotlinlang.org"><img src="https://img.shields.io/badge/Kotlin-232F3E?style=for-the-badge&logo=kotlin&logoColor=FF9900" alt="Kotlin" /></a>
+  <a href="https://isocpp.org"><img src="https://img.shields.io/badge/C%2B%2B-20%25_Learning-232F3E?style=for-the-badge&logo=c%2B%2B&logoColor=FF9900" alt="C++" /></a>
+  <a href="https://python.org"><img src="https://img.shields.io/badge/Python-20%25_Learning-232F3E?style=for-the-badge&logo=python&logoColor=FF9900" alt="Python" /></a>
+</p>
+
+### 🚀 Daily Software & Tools
+<p align="left">
+  <img src="https://img.shields.io/badge/Antigravity_Desktop_2.0-232F3E?style=for-the-badge&logo=google&logoColor=FF9900" alt="Antigravity Desktop 2.0" />
+  <img src="https://img.shields.io/badge/Antigravity_CLI-232F3E?style=for-the-badge&logo=terminal&logoColor=FF9900" alt="Antigravity CLI" />
   <a href="https://git-scm.com"><img src="https://img.shields.io/badge/Git-232F3E?style=for-the-badge&logo=git&logoColor=FF9900" alt="Git" /></a>
   <a href="https://gimp.org"><img src="https://img.shields.io/badge/GIMP-232F3E?style=for-the-badge&logo=gimp&logoColor=FF9900" alt="GIMP" /></a>
 </p>

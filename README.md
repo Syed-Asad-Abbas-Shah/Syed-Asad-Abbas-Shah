@@ -1,18 +1,21 @@
+# Syed Asad Abbas Shah (Syed-Asad-Abbas-Shah)
+
 <p align="center">
-  <img src="assets/header.svg" alt="Syed Asad Abbas Shah Banner" width="100%" />
+  <img src="assets/header.svg" alt="Syed Asad Abbas Shah Profile Header" width="100%" />
 </p>
 
 <img src="assets/title_about.svg" alt="📌 About Me" height="40" />
 <br/><br/>
 
-<img src="https://github.com/Syed-Asad-Abbas-Shah.png" width="140" align="right" alt="Syed Asad Abbas Shah (Syed Asad)" />
+<img src="assets/profile.jpg" width="160" align="right" alt="Syed Asad Abbas Shah" title="Syed Asad Abbas Shah" style="border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); margin-left: 20px; margin-bottom: 20px;" />
 
-Welcome to my official GitHub workspace. I am **Syed Asad Abbas Shah**, I am a Computer Engineering Technology student specializing in hardware co-design, Linux systems automation, and network architectures.
+Welcome to the official GitHub profile of **Syed Asad Abbas Shah**, also known as **Syed Asad** or **Asad**. I am a Computer Engineering Technology student specializing in hardware co-design, Linux systems automation, and network architectures.
 
 ### 🐧 Workstation & OS Environment
 I build and compile my projects on **CachyOS Linux**—a performance-optimized distribution built on top of Arch Linux, paired with the highly customizable **KDE Plasma** desktop environment (featuring unified design themes across terminal environments and the Dolphin file manager).
 
-🚀 **KDE Plasma 6.7 & Engineering**: I am actively tracking the upcoming release of **KDE Plasma 6.7** launching on **June 16, 2026** (streaming on CachyOS Linux). For Computer Engineering Technology, Plasma 6.7 offers a highly optimized development canvas, featuring seamless window tiling, advanced terminal integration, and low-latency system-level rendering. This setup provides a robust environment for compiling high-performance C++ binaries, scripting automation in Python, and routing multi-layer PCBs in KiCad.
+> [!NOTE]
+> **KDE Plasma 6.7 & Engineering**: I am actively tracking the upcoming release of **KDE Plasma 6.7** launching on **June 16, 2026** (streaming on CachyOS Linux). For Computer Engineering Technology, Plasma 6.7 offers a highly optimized development canvas, featuring seamless window tiling, advanced terminal integration, and low-latency system-level rendering. This setup provides a robust environment for compiling high-performance C++ binaries, scripting automation in Python, and routing multi-layer PCBs in KiCad.
 
 ---
 
@@ -53,11 +56,11 @@ I build and compile my projects on **CachyOS Linux**—a performance-optimized d
           <img src="https://cdn.simpleicons.org/python/3776AB" width="44" height="44" alt="Python" />
         </a>
         <br/>
-        <sub><b>KiCad / C++ &amp; Python (20%)</b></sub>
+        <sub><b>KiCad / C++ &amp; Python</b></sub>
       </td>
       <td align="center" valign="middle">
-        <img src="https://raw.githubusercontent.com/Syed-Asad-Abbas-Shah/Syed-Asad-Abbas-Shah/main/assets/antigravity.svg" width="44" height="44" alt="Antigravity Desktop 2.0" />&nbsp;&nbsp;
-        <img src="https://raw.githubusercontent.com/Syed-Asad-Abbas-Shah/Syed-Asad-Abbas-Shah/main/assets/antigravity.svg" width="44" height="44" alt="Antigravity CLI" />&nbsp;&nbsp;
+        <img src="assets/antigravity.svg" width="44" height="44" alt="Antigravity Desktop 2.0" />&nbsp;&nbsp;
+        <img src="assets/antigravity.svg" width="44" height="44" alt="Antigravity CLI" />&nbsp;&nbsp;
         <a href="https://git-scm.com" target="_blank">
           <img src="https://cdn.simpleicons.org/git/F05032" width="38" height="38" alt="Git" />
         </a>&nbsp;&nbsp;
@@ -76,9 +79,14 @@ I build and compile my projects on **CachyOS Linux**—a performance-optimized d
 <img src="assets/title_projects.svg" alt="🚀 Projects &amp; Goals" height="40" />
 <br/><br/>
 
-*   **ATX Power Supply V2**: A custom-designed desktop laboratory power supply utilizing KiCad for schematic capture and multi-layer PCB layout.
-*   **[kitchen-lexicon-android](https://github.com/Syed-Asad-Abbas-Shah/kitchen-lexicon-android)**: A premium, native Android application featuring an interactive glossary of kitchen utensils, vector icons, custom sound synthesis, and Text-To-Speech.
-*   **Professional Objective**: Aspiring to become an **Embedded Systems Engineer** or **Computer Hardware Engineer**, specializing in hardware-software co-design, Linux performance tuning, and network security.
+| Project | Stack &amp; Tools | Core Description | Status |
+| :--- | :--- | :--- | :---: |
+| [⚡ **ATX Power Supply V2**](https://github.com/Syed-Asad-Abbas-Shah/ATX-Power-Supply-V2) | `KiCad` `Hardware` `Regulators` | Custom-designed desktop laboratory linear regulated power supply with multi-layer PCB layout. | `Schematic Complete` |
+| [🍳 **kitchen-lexicon-android**](https://github.com/Syed-Asad-Abbas-Shah/kitchen-lexicon-android) | `Kotlin` `Compose` `Android SDK` | Premium, native Material 3 kitchen glossary featuring vector paths and offline sound synthesis. | `Complete` |
+| [⚙️ **alu-simulator**](https://github.com/Syed-Asad-Abbas-Shah/alu-simulator) | `C` `GCC` `Digital Logic` | Gate-level hardware simulator in C mapping physical-to-logical arithmetic logic unit CPU flows. | `Complete` |
+| [📈 **Coding-Journey**](https://github.com/Syed-Asad-Abbas-Shah/Coding-Journey) | `C++` `Python` `Systems` | Structured daily progress tracker mapping algorithms, syntax patterns, and firmware scripting. | `Active` |
+
+> 🎯 **Professional Objective**: Aspiring to become an **Embedded Systems Engineer** or **Computer Hardware Engineer**, specializing in hardware-software co-design, Linux performance tuning, and network security.
 
 ---
 
@@ -87,24 +95,23 @@ I build and compile my projects on **CachyOS Linux**—a performance-optimized d
 
 <p align="left">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Syed-Asad-Abbas-Shah&show_icons=true&theme=dark&bg_color=0d1117&title_color=FF9900&text_color=c9d1d9&icon_color=FF9900&border_color=30363d" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Syed-Asad-Abbas-Shah&show_icons=true&theme=default&bg_color=ffffff&title_color=131921&text_color=232F3E&icon_color=FF9900&border_color=e0e0e0" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Syed-Asad-Abbas-Shah&show_icons=true&theme=dark&bg_color=020617&title_color=1DC7B5&text_color=94a3b8&icon_color=1D99F3&border_color=1e293b" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Syed-Asad-Abbas-Shah&show_icons=true&theme=default&bg_color=ffffff&title_color=1D99F3&text_color=475569&icon_color=1DC7B5&border_color=e2e8f0" />
     <img alt="Syed Asad Abbas Shah's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Syed-Asad-Abbas-Shah&show_icons=true&theme=default" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Syed-Asad-Abbas-Shah&layout=compact&theme=dark&bg_color=0d1117&title_color=FF9900&text_color=c9d1d9&icon_color=FF9900&border_color=30363d" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Syed-Asad-Abbas-Shah&layout=compact&theme=default&bg_color=ffffff&title_color=131921&text_color=232F3E&icon_color=FF9900&border_color=e0e0e0" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Syed-Asad-Abbas-Shah&layout=compact&theme=dark&bg_color=020617&title_color=1DC7B5&text_color=94a3b8&icon_color=1D99F3&border_color=1e293b" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Syed-Asad-Abbas-Shah&layout=compact&theme=default&bg_color=ffffff&title_color=1D99F3&text_color=475569&icon_color=1DC7B5&border_color=e2e8f0" />
     <img alt="Syed Asad Abbas Shah's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Syed-Asad-Abbas-Shah&layout=compact&theme=default" />
   </picture>
 </p>
 
 ---
 
-<!-- 
-SEO metadata block to ensure indexing under search terms:
-Syed Asad Abbas Shah, Syed Asad, Asad, Syed-Asad-Abbas-Shah, Syed Asad Shah, SyedAsadAbbasShah, CachyOS, KDE Plasma 6.7
--->
+<div align="center">
+  <sub><b>Index Terms & Search Tags:</b> Syed Asad Abbas Shah | Syed Asad | Asad Abbas Shah | Syed-Asad-Abbas-Shah | Computer Engineering Student | CachyOS Developer | KDE Plasma 6.7</sub>
+</div>
 
 <p align="center">
-  <sub>Generated with precision. Engineered with <b>Google Antigravity</b>.</sub>
+  <sub>Generated with precision. Engineered with <b>Google Antigravity 2.0</b>.</sub>
 </p>

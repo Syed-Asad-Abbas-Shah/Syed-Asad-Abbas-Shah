@@ -1,109 +1,185 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%" height="220" preserveAspectRatio="xMidYMid meet">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="240" preserveAspectRatio="xMidYMid meet">
   <defs>
     <!-- Background Gradients -->
-    <linearGradient id="bg-gradient-light" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="bg-grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="100%" stop-color="#f5f7fa" />
+      <stop offset="60%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#f1f5f9" />
     </linearGradient>
-    <linearGradient id="bg-gradient-dark" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#000000" />
-      <stop offset="100%" stop-color="#0b0f17" />
+    <linearGradient id="bg-grad-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="60%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
     </linearGradient>
 
-    <!-- Circuit Glowing Filters -->
-    <filter id="glow-orange" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+    <!-- Accent Gradients -->
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1DC7B5" />
+      <stop offset="50%" stop-color="#1D99F3" />
+      <stop offset="100%" stop-color="#7F52FF" />
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glow-teal" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
-    
-    <filter id="glow-blue" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
+    <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.12" />
     </filter>
 
     <!-- Engineering Grid Pattern -->
-    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" class="grid-line" stroke-width="0.5" />
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" class="grid-line" stroke-width="0.75" />
+      <circle cx="0" cy="0" r="1" class="grid-dot" />
     </pattern>
   </defs>
 
   <style>
-    /* Default (Light Mode) Styles */
-    .bg { fill: url(#bg-gradient-light); transition: fill 0.3s ease; }
-    .grid-line { stroke: rgba(0, 0, 0, 0.03); }
-    .title { font-family: 'Amazon Ember', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 38px; font-weight: 800; fill: #131921; letter-spacing: -0.5px; transition: fill 0.3s ease; }
-    .subtitle { font-family: 'Amazon Ember', 'Inter', -apple-system, sans-serif; font-size: 15px; font-weight: 600; fill: #232F3E; letter-spacing: 2px; text-transform: uppercase; transition: fill 0.3s ease; }
-    .tagline { font-family: 'Amazon Ember', 'Inter', -apple-system, sans-serif; font-size: 13.5px; fill: #565959; transition: fill 0.3s ease; }
-    .accent-line { stroke: #FF9900; stroke-width: 3.5; stroke-linecap: round; filter: url(#glow-orange); }
-    .circuit-line { stroke: #d0d7de; stroke-width: 1.5; fill: none; transition: stroke 0.3s ease; }
-    .circuit-node-orange { fill: #FF9900; filter: url(#glow-orange); }
-    .circuit-node-blue { fill: #4285F4; filter: url(#glow-blue); transition: fill 0.3s ease; }
-    .chip-border { stroke: #232F3E; stroke-width: 1.5; fill: none; transition: stroke 0.3s ease; }
-    .antigravity-logo { fill: #4285F4; filter: url(#glow-blue); }
+    /* Light Mode (Default) Styles */
+    .bg { fill: url(#bg-grad-light); transition: fill 0.3s ease; }
+    .grid-line { stroke: rgba(148, 163, 184, 0.08); }
+    .grid-dot { fill: rgba(148, 163, 184, 0.15); }
+    
+    /* Typography */
+    .title-name { font-family: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif; font-size: 38px; font-weight: 800; fill: #0f172a; letter-spacing: -0.5px; }
+    .title-label { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 600; fill: #64748b; letter-spacing: 3px; text-transform: uppercase; }
+    .tagline { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-size: 14px; fill: #475569; font-weight: 400; line-height: 1.6; }
+    .tagline-bold { font-weight: 600; fill: #0f172a; }
+    
+    /* Decorative Elements */
+    .accent-bar { fill: url(#accent-grad); }
+    .circuit-path { stroke: #cbd5e1; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+    .circuit-path-glow { stroke: url(#accent-grad); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; fill: none; filter: url(#glow-teal); opacity: 0.8; }
+    .node-active { fill: #1DC7B5; filter: url(#glow-teal); }
+    .node-inactive { fill: #94a6b8; }
+    .chip-bg { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1.5; filter: url(#card-shadow); }
+    .chip-pin { fill: #94a6b8; }
+    .badge-bg { fill: rgba(241, 245, 249, 0.8); stroke: rgba(226, 232, 240, 0.8); stroke-width: 1; rx: 6px; }
+    .badge-text { font-family: 'Fira Code', 'Courier New', monospace; font-size: 11px; font-weight: 600; fill: #0f172a; }
 
     /* Dark Mode Override */
     @media (prefers-color-scheme: dark) {
-      .bg { fill: url(#bg-gradient-dark); }
-      .grid-line { stroke: rgba(255, 255, 255, 0.02); }
-      .title { fill: #ffffff; }
-      .subtitle { fill: #FF9900; }
-      .tagline { fill: #c9d1d9; }
-      .circuit-line { stroke: #30363d; }
-      .circuit-node-blue { fill: #58a6ff; }
-      .chip-border { stroke: #FF9900; }
-      .antigravity-logo { fill: #4285F4; }
+      .bg { fill: url(#bg-grad-dark); }
+      .grid-line { stroke: rgba(255, 255, 255, 0.025); }
+      .grid-dot { fill: rgba(255, 255, 255, 0.04); }
+      .title-name { fill: #f8fafc; }
+      .title-label { fill: #1DC7B5; }
+      .tagline { fill: #94a3b8; }
+      .tagline-bold { fill: #f8fafc; }
+      .circuit-path { stroke: #1e293b; }
+      .node-inactive { fill: #334155; }
+      .chip-bg { fill: #0b0f19; stroke: #1e293b; }
+      .chip-pin { fill: #475569; }
+      .badge-bg { fill: rgba(15, 23, 42, 0.6); stroke: rgba(30, 41, 59, 0.8); }
+      .badge-text { fill: #1DC7B5; }
     }
   </style>
+
+  <!-- Card Background -->
+  <rect width="100%" height="100%" rx="16" class="bg" />
   
-  <!-- Background Card with Premium Gradient -->
-  <rect width="100%" height="100%" rx="12" class="bg" />
-  
-  <!-- Engineering Grid overlay for a high-tech CAD/Hardware Design vibe -->
-  <rect width="100%" height="100%" rx="12" fill="url(#grid)" />
-  
-  <!-- Decorative Glowing Circuit Diagram (Right side) -->
-  <g opacity="0.8">
-    <!-- Lines -->
-    <path d="M 590 30 L 680 30 L 710 60 L 760 60" class="circuit-line" />
-    <path d="M 640 190 L 640 130 L 670 100 L 750 100" class="circuit-line" />
-    <path d="M 560 110 L 600 110 L 620 90 L 620 60" class="circuit-line" />
-    <path d="M 680 30 L 680 70 M 710 60 L 710 110" class="circuit-line" />
-    
-    <!-- Nodes -->
-    <circle cx="590" cy="30" r="4" class="circuit-node-orange" />
-    <circle cx="760" cy="60" r="4" class="circuit-node-orange" />
-    <circle cx="750" cy="100" r="4" class="circuit-node-blue" />
-    <circle cx="560" cy="110" r="4" class="circuit-node-blue" />
-    <circle cx="620" cy="60" r="3" class="circuit-node-orange" />
-    
-    <!-- Microchip representation -->
-    <rect x="650" y="55" width="45" height="45" rx="4" class="chip-border" fill-opacity="0.03" />
-    
-    <!-- Embedded Official Antigravity Logo inside the microchip (Colored in Blue) -->
-    <g transform="translate(655, 60) scale(0.1944)">
-      <path d="M144.248 149.062c7.5 5.626 18.75 1.876 8.437-8.437-30.937-30-24.375-112.5-62.812-112.5-38.438 0-31.875 82.5-62.813 112.5-11.25 11.25.938 14.063 8.438 8.437 29.062-19.687 27.187-54.375 54.375-54.375 27.187 0 25.312 34.688 54.375 54.375Z" class="antigravity-logo"/>
+  <!-- Engineering Grid -->
+  <rect width="100%" height="100%" rx="16" fill="url(#grid)" />
+
+  <!-- PCB Hardware Circuit Patterns (Right Side) -->
+  <g opacity="0.85">
+    <!-- Background traces -->
+    <path d="M 520 120 L 620 120 L 650 90 L 730 90" class="circuit-path" />
+    <path d="M 600 200 L 600 160 L 630 130 L 680 130" class="circuit-path" />
+    <path d="M 680 40 L 710 70 L 770 70 L 800 100 L 800 180" class="circuit-path" />
+    <path d="M 720 210 L 780 150 L 840 150" class="circuit-path" />
+
+    <!-- Glowing active circuit paths -->
+    <path d="M 580 80 L 640 80 L 670 110 L 710 110" class="circuit-path-glow" />
+    <path d="M 710 110 L 750 150 L 750 200" class="circuit-path-glow" />
+    <path d="M 660 170 L 700 170 L 720 150 L 720 120" class="circuit-path-glow" />
+
+    <!-- Via Nodes -->
+    <circle cx="580" cy="80" r="4.5" class="node-active" />
+    <circle cx="750" cy="200" r="4.5" class="node-active" />
+    <circle cx="520" cy="120" r="3.5" class="node-inactive" />
+    <circle cx="730" cy="90" r="3.5" class="node-inactive" />
+    <circle cx="840" cy="150" r="3.5" class="node-inactive" />
+    <circle cx="660" cy="170" r="4" class="node-active" />
+
+    <!-- Styled Microchip Component (U1) -->
+    <g transform="translate(670, 70)">
+      <!-- Pins Left -->
+      <rect x="-6" y="8" width="8" height="3" rx="1" class="chip-pin" />
+      <rect x="-6" y="18" width="8" height="3" rx="1" class="chip-pin" />
+      <rect x="-6" y="28" width="8" height="3" rx="1" class="chip-pin" />
+      <rect x="-6" y="38" width="8" height="3" rx="1" class="chip-pin" />
+      
+      <!-- Pins Right -->
+      <rect x="38" y="8" width="8" height="3" rx="1" class="chip-pin" />
+      <rect x="38" y="18" width="8" height="3" rx="1" class="chip-pin" />
+      <rect x="38" y="28" width="8" height="3" rx="1" class="chip-pin" />
+      <rect x="38" y="38" width="8" height="3" rx="1" class="chip-pin" />
+      
+      <!-- Pins Top -->
+      <rect x="8" y="-6" width="3" height="8" rx="1" class="chip-pin" />
+      <rect x="18" y="-6" width="3" height="8" rx="1" class="chip-pin" />
+      <rect x="28" y="-6" width="3" height="8" rx="1" class="chip-pin" />
+
+      <!-- Pins Bottom -->
+      <rect x="8" y="38" width="3" height="8" rx="1" class="chip-pin" />
+      <rect x="18" y="38" width="3" height="8" rx="1" class="chip-pin" />
+      <rect x="28" y="38" width="3" height="8" rx="1" class="chip-pin" />
+
+      <!-- Chip Body -->
+      <rect x="0" y="0" width="40" height="40" rx="6" class="chip-bg" />
+      <circle cx="6" cy="6" r="2.5" fill="#475569" opacity="0.6" />
+      
+      <!-- Embedded Google Antigravity Logo inside chip -->
+      <g transform="translate(8, 8) scale(0.1333)">
+        <path d="M144.248 149.062c7.5 5.626 18.75 1.876 8.437-8.437-30.937-30-24.375-112.5-62.812-112.5-38.438 0-31.875 82.5-62.813 112.5-11.25 11.25.938 14.063 8.438 8.437 29.062-19.687 27.187-54.375 54.375-54.375 27.187 0 25.312 34.688 54.375 54.375Z" fill="#1D99F3" />
+      </g>
     </g>
   </g>
 
-  <!-- Title & Text Info -->
-  <g transform="translate(45, 0)">
-    <!-- Main Title: Syed Asad Abbas Shah -->
-    <text x="0" y="72" class="title">Syed Asad Abbas Shah</text>
-    
-    <!-- Decorative accent divider with glowing filter -->
-    <line x1="0" y1="92" x2="420" y2="92" class="accent-line" />
-    
-    <!-- Subtitle (Role) -->
-    <text x="0" y="128" class="subtitle">Computer Engineering &amp; Hardware Design</text>
-    
-    <!-- Tagline (Interests) -->
-    <text x="0" y="162" class="tagline">Specializing in hardware automation, network protocols, and Linux performance.</text>
-    <text x="0" y="182" class="tagline">"Solving complex problems through precision and continuous learning."</text>
+  <!-- Left Content Panel -->
+  <g transform="translate(50, 0)">
+    <!-- Accent Bar -->
+    <rect x="0" y="45" width="4" height="150" rx="2" class="accent-bar" />
+
+    <g transform="translate(20, 0)">
+      <!-- Subtitle/Label -->
+      <text x="0" y="65" class="title-label">System Architecture &amp; Hardware Design</text>
+      
+      <!-- Main Title -->
+      <text x="0" y="110" class="title-name">Syed Asad Abbas Shah</text>
+      
+      <!-- Description -->
+      <text x="0" y="145" class="tagline">Computer Engineering student specializing in <tspan class="tagline-bold">hardware-software co-design</tspan>,</text>
+      <text x="0" y="165" class="tagline">Linux systems performance tuning, and robust network architectures.</text>
+      
+      <!-- Monospace Tech Badges -->
+      <g transform="translate(0, 185)">
+        <!-- Badge 1: CachyOS -->
+        <g transform="translate(0, 0)">
+          <rect x="0" y="0" width="105" height="24" class="badge-bg" />
+          <text x="10" y="16" class="badge-text">OS: CACHYOS</text>
+        </g>
+        <!-- Badge 2: Arch Linux -->
+        <g transform="translate(115, 0)">
+          <rect x="0" y="0" width="85" height="24" class="badge-bg" />
+          <text x="10" y="16" class="badge-text">ARCH_LINUX</text>
+        </g>
+        <!-- Badge 3: KDE Plasma -->
+        <g transform="translate(210, 0)">
+          <rect x="0" y="0" width="105" height="24" class="badge-bg" />
+          <text x="10" y="16" class="badge-text">DE: PLASMA_6</text>
+        </g>
+        <!-- Badge 4: KiCad -->
+        <g transform="translate(325, 0)">
+          <rect x="0" y="0" width="95" height="24" class="badge-bg" />
+          <text x="10" y="16" class="badge-text">EDA: KICAD</text>
+        </g>
+      </g>
+    </g>
   </g>
 </svg>

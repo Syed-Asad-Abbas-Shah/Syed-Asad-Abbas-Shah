@@ -12,10 +12,10 @@
 Welcome to the official GitHub profile of **Syed Asad Abbas Shah**, also known as **Syed Asad** or **Asad**. I am a Computer Engineering Technology student specializing in hardware co-design, Linux systems automation, and network architectures.
 
 ### 🐧 Workstation & OS Environment
-I build and compile my projects on **CachyOS Linux**—a performance-optimized distribution built on top of Arch Linux, paired with the highly customizable **KDE Plasma** desktop environment (featuring unified design themes across terminal environments and the Dolphin file manager).
+I build and compile my projects on **CachyOS Linux**—a performance-optimized distribution built on top of Arch Linux, paired with the highly customizable **KDE Plasma 6.7** desktop environment (featuring unified design themes across terminal environments and the Dolphin file manager).
 
 > [!NOTE]
-> **KDE Plasma 6.7 & Engineering**: I am actively tracking the upcoming release of **KDE Plasma 6.7** launching on **June 16, 2026** (streaming on CachyOS Linux). For Computer Engineering Technology, Plasma 6.7 offers a highly optimized development canvas, featuring seamless window tiling, advanced terminal integration, and low-latency system-level rendering. This setup provides a robust environment for compiling high-performance C++ binaries, scripting automation in Python, and routing multi-layer PCBs in KiCad.
+> **KDE Plasma 6.7 & Engineering**: I am currently using **KDE Plasma 6.7** (released on **June 16, 2026**, streaming on CachyOS Linux). For Computer Engineering Technology, Plasma 6.7 offers a highly optimized development canvas, featuring per-screen virtual desktops, seamless window tiling, advanced terminal integration, and low-latency system-level rendering. This setup provides a robust environment for compiling high-performance C++ binaries, scripting automation in Python, and routing multi-layer PCBs in KiCad.
 
 ---
 

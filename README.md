@@ -9,7 +9,7 @@
 
 <img src="assets/profile.jpg" width="160" align="right" alt="Syed Asad Abbas Shah" title="Syed Asad Abbas Shah" style="border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.15); margin-left: 20px; margin-bottom: 20px;" />
 
-Welcome to the official GitHub profile of **Syed Asad Abbas Shah**, also known as **Syed Asad** or **Asad**. I am a Computer Engineering Technology student specializing in hardware co-design, Linux systems automation, and network architectures.
+Welcome to the official GitHub profile of **Syed Asad Abbas Shah**,  I am a Computer Engineering Technology student specializing in hardware co-design, Linux systems automation, and network architectures.
 
 ### 🐧 Workstation & OS Environment
 I build and compile my projects on **CachyOS Linux**—a performance-optimized distribution built on top of Arch Linux, paired with the highly customizable **KDE Plasma 6.7** desktop environment (featuring unified design themes across terminal environments and the Dolphin file manager).
